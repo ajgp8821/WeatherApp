@@ -22,7 +22,7 @@ const data = {
     wind: 'normal',
 };*/
 
-class ForecastExteneded extends Component {
+class ForecastExtended extends Component {
 
     constructor() {
         super();
@@ -85,8 +85,8 @@ class ForecastExteneded extends Component {
     }
 }
 
-ForecastExteneded.propTypes = {
+ForecastExtended.propTypes = {
     city: PropTypes.string.isRequired,
 }
 
-export default ForecastExteneded;
+export default ForecastExtended;
